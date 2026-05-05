@@ -1,0 +1,28 @@
+{
+  "faqs": [
+    {
+      "question": "What are the library timings?",
+      "answer": "The central library is open from 8:00 AM to 8:00 PM on all working days.",
+      "keywords": ["library", "timing", "open", "close", "hours"]
+    },
+    {
+      "question": "How do I apply for the hostel?",
+      "answer": "Hostel room allocation is done via the student portal. You must pay the fee receipt at the warden's office to secure your room.",
+      "keywords": ["hostel", "apply", "room", "accommodation"]
+    }
+  ],
+  "campusData": [
+    {
+      "title": "B.Tech Computer Science Admissions",
+      "content": "Admission to the B.Tech CSE program requires a minimum of 60% in 10+2 with Physics, Chemistry, and Mathematics. Candidates must also qualify in the university entrance exam or JEE Mains.",
+      "category": "Admissions",
+      "sourceUrl": "manual_entry_cse_admissions"
+    },
+    {
+      "title": "Campus Transport and Buses",
+      "content": "The university provides a fleet of 50+ buses covering a 50km radius. Bus passes are issued term-wise. Students must carry their ID cards to board the bus.",
+      "category": "Transport",
+      "sourceUrl": "manual_entry_transport"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'http://localhost:5000/api', // Point this to your backend
+    baseURL: 'https://vignan-backend.onrender.com/api', // Point this to your backend
 });
 
 // Automatically attach the JWT token to every request if it exists

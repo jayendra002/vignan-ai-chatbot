@@ -28,6 +28,10 @@ app.use('/api/chat', chatRoutes);
 app.use('/api/student/marks', marksRoutes);
 app.use('/api/prospect', prospectRoutes); // <-- Now it knows what this is!
 
+app.get("/", (req, res) => {
+  res.send("Backend Working Successfully 🚀");
+});
+
 // Start the server
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
